@@ -1,0 +1,31 @@
+body {
+	background-image: url('/background.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.fabric {
+	max-width: 100%;
+	height: auto !important;
+}
+.fabric canvas {
+	max-width: 100%;
+	height: auto !important;
+	position: inherit !important;
+}
+.fabric canvas.upper-canvas {
+	display: none;
+}
+
+hr {
+	margin-top: 10px;
+}
+footer {
+	margin-top: 5px;
+	text-align: center;
+}
+
+footer a {
+	color: blue;
+}
